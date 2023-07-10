@@ -1,0 +1,26 @@
+
+2023-07-10 17:41:30 Apache Commons Daemon procrun stdout initialized.
+17:41:30.470 [main] DEBUG xyz.mxue.procrundemo.ProcrunDemoApplication - PID:63344@LX Application mode:start context:null
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.11)
+
+2023-07-10 17:41:30.765  INFO 63344 --- [           main] x.m.procrundemo.ProcrunDemoApplication   : Starting ProcrunDemoApplication v0.0.1 using Java 1.8.0_271 on LX with PID 63344 (G:\project\procrun-demo\install\procrun-demo-0.0.1.jar started by LOCAL SERVICE in G:\project\procrun-demo\install)
+2023-07-10 17:41:30.766  INFO 63344 --- [           main] x.m.procrundemo.ProcrunDemoApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-07-10 17:41:31.513  INFO 63344 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9909 (http)
+2023-07-10 17:41:31.519  INFO 63344 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-07-10 17:41:31.519  INFO 63344 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-07-10 17:41:31.578  INFO 63344 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-07-10 17:41:31.579  INFO 63344 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 777 ms
+2023-07-10 17:41:31.767  INFO 63344 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9909 (http) with context path ''
+2023-07-10 17:41:31.771  INFO 63344 --- [           main] x.m.procrundemo.ProcrunDemoApplication   : Started ProcrunDemoApplication in 1.221 seconds (JVM running for 1.499)
+2023-07-10 17:41:50.920  INFO 63344 --- [nio-9909-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-10 17:41:50.920  INFO 63344 --- [nio-9909-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-10 17:41:50.921  INFO 63344 --- [nio-9909-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-10 17:42:00.384  INFO 63344 --- [       Thread-3] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-07-10 17:42:00.385  INFO 63344 --- [       Thread-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
